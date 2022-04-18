@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64dd32-getting-started-with-i2c-mplabx",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Inter-Integrated Circuit (I<sup>2</sup>C) Using the AVR64DD32 Microcontroller",
         "projectName": "avr64dd32-getting-started-with-i2c-mplabx",
         "shortDescription": "Code examples for the I2C peripheral,",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "N/A",
+            "semverRange": " "
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,15 @@
             }
         },
         "author": "Marinel-Cosmin Stanciu",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": [
+            "I2C"
+        ],
+        "keywords": [
+            "Getting Started",
+            "I2C",
+            "I2C Protocol",
+            "Serial Communication"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
