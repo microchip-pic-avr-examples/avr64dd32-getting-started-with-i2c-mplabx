@@ -2,7 +2,7 @@
 
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-#  Getting Started with Inter-Integrated Circuit (I<sup>2</sup>C) Using the AVR64DD32 Microcontroller
+#  Getting Started with Inter-Integrated Circuit (I2C) Using the AVR64DD32 Microcontroller
 
 This example shows the basic functionality of the Two-Wire Interface (TWI) peripheral with a basic I<sup>2</sup>C communication, both reading and writing from or to the Client devices. The device is connected to the PICkit™ Serial I<sup>2</sup>C Demo Board to communicate with the MCP3221 and MCP23008 I<sup>2</sup>C Client devices. The AVR64DD32 first scans the I<sup>2</sup>C bus to discover all devices available on the bus. A message is transmitted through the Universal Synchronous and Asynchronous Receiver and Transmitter (USART) to indicate the addresses of the devices that respond with the Acknowledge (ACK) signal. A voltage is read by the MCP3221 (equipped with a 12-bit Analog-to-Digital Converter (ADC)) and the result is transmitted through I<sup>2</sup>C to the AVR64DD32 device. Then, the MCU transmits an 8-bit sequence to the MCP23008, equipped with an I/O Expander, to drive 8 LEDs on an LED bar. The LED display (consisting of 8 LEDs) indicates the potentiometer voltage value (divided in subranges).
 <br><br>
@@ -75,7 +75,7 @@ This application shows how to use the TWI0 as an I<sup>2</sup>C compatible Host 
 - MCP23008 – equipped with an I/O Expander
 <br>
 
-[Back to top](#getting-started-with-inter-integrated-circuit-isup2supc-using-the-avr64dd32-microcontroller)<br>
+[Back to top](#getting-started-with-inter-integrated-circuit-i2c-using-the-avr64dd32-microcontroller)<br>
 
 ##  How to Program the Curiosity Nano Board
 
@@ -105,4 +105,4 @@ This chapter shows how to use the MPLAB® X IDE to program an AVR® device with 
 
 <br>
 
-- [Back to top](#getting-started-with-inter-integrated-circuit-isup2supc-using-the-avr64dd32-microcontroller)
+- [Back to top](#getting-started-with-inter-integrated-circuit-i2c-using-the-avr64dd32-microcontroller)
